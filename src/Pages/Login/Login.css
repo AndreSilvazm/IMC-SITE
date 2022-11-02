@@ -1,0 +1,63 @@
+.all-container{
+
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.beringela,.maca,.fita{
+
+    width: 200px;
+
+    
+}
+
+.Ilustration-content{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+
+    justify-content: space-evenly;
+}
+
+.Ilustration-content h1{
+
+    color: white;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .all-container{
+
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .Ilustration-content{
+
+        height: fit-content;
+        margin-top: 3%;
+    }
+
+    .Ilustration-content p{
+
+        color: whitesmoke;
+    }
+
+    .beringela, .maca, .fita{
+
+        display: none;
+    }
+    
+}

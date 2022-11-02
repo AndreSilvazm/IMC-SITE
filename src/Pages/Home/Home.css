@@ -1,0 +1,15 @@
+.Body{
+
+
+    height: 100vh;
+
+    background-image: url(../../Mídias/pexels-jane-doan-1128678.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Email{
+
+    text-align: left;
+}

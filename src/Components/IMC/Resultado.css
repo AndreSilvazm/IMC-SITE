@@ -1,0 +1,18 @@
+.Container-result{
+
+    margin-top: 50px;
+    
+}
+
+
+.Container-result h2{
+
+    color: crimson;
+    text-transform: uppercase;
+}
+
+.Container-result h3{
+
+    color: palegreen;
+    text-shadow: 2px 2px black;
+}
